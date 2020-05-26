@@ -63,7 +63,7 @@
          },
          {
            "name": "signup",
-           "header": "Subscribe to receive news, coupons and advice.",
+           "header": "Subscribe to receive news, coupons and tech advice.",
            "input": "email",
            "inputText": "Enter email address...",
            "inputId": "inputEmail",
@@ -85,20 +85,40 @@
              "title": "Email",
              "value": "info@web4u4less.com"
 
-           }
-
-            ],
+           }],
             "social":[
-              {
-                "className": "fa fa-linkedin"
-              },
-              {
-                "className": "fa fa-twitter"
-              },
-              {
-                "className": "fa fa-github"
-              }
-            ],
+                 {
+                   "type": "Skype",
+                   "value": "carolsuejackson/chat",
+                   "url" : "skype:",
+                   "className": "fa fa-skype",
+                   "full": "skype:carolsusiejackson/chat"
+
+                 },
+                 {
+                   "type": "Linkedin",
+                   "value": "carolodiorne",
+                   "url": "www.linkedin.com/in/",
+                   "className": "fa fa-linkedin",
+                   "full": "https://www.linkedin.com/in/carolodiorne"
+                 },
+                 {
+                   "type": "Github",
+                   "value": "carolsusieo",
+                   "url": "www.github.com",
+                   "className" : "fa fa-github",
+                   "full": "https://www.github.com/carolsusieo"
+                 },
+                 {
+                   "type": "Stack Overflow",
+                   "value": "1846633/carol-susie-odiorne",
+                   "url": "www.stack-overflow/users/",
+                   "className": "fa fa-stack-overflow",
+                   "full": "https://www.stackoverflow.com/users/1846633/carol-susie-odiorne"
+
+                 }
+               ],
+
            "classList": "bg-black"
          }
       ]

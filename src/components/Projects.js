@@ -12,6 +12,7 @@ export default class Projects extends Component {
     }
   }
 
+// todo need to add links to the apps I'm currently creating
   render(){
     const projects = this.state.props.projects;
     return (

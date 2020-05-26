@@ -35,11 +35,11 @@ render(){
                 </div>
               </div>
             )})}
-
             <div className="social d-flex justify-content-center">
             {this.state.props.social.map(social =>{
               return(
-              <a href="#" className="mx-2">
+
+              <a href={social.full} className="mx-2">
                 <i className={social.className}></i>
               </a>
               )})}
