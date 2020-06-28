@@ -62,11 +62,74 @@
            ]
          },
          {
+           "name": "userdetails",
+           "header": "Provide Information to see how your website can look!",
+           "fields":[
+             {
+               "input": "email",
+               "inputText": "Email",
+               "inputId": "inputEmail"
+             },
+             {
+               "input": "text",
+               "inputText": "First Name",
+               "inputId": "inputFirst"
+             },
+             {
+               "input": "text",
+               "inputText": "Last Name",
+               "inputId": "inputLast"
+             },
+             {
+               "input": "text",
+               "inputText": "Business/Hobby",
+               "inputId": "inputBName"
+             },
+             {
+               "input": "text",
+               "inputText": "Street",
+               "inputId": "inputStreet"
+             },
+             {
+               "input": "text",
+               "inputText": "State",
+               "inputId": "inputState"
+             },
+             {
+               "input": "number",
+               "inputText": "Zip",
+               "inputId": "inputZip"
+             },
+             {
+               "input": "phone",
+               "inputText": "Phone",
+               "inputId": "inputPhone"
+             },
+             {
+               "input": "text",
+               "inputText": "Message",
+               "inputId": "inputMessage"
+             },
+             {
+               "input": "text",
+               "inputText": "Bio",
+               "inputId": "inputBio"
+             }
+           ],
+           "button" : "submit",
+           "buttonText": "OK",
+           "classList": "text-center"
+         },
+         {
            "name": "signup",
            "header": "Subscribe to receive news, coupons and tech advice.",
-           "input": "email",
-           "inputText": "Enter email address...",
-           "inputId": "inputEmail",
+           "fields":[
+             {
+             "input": "email",
+             "inputText": "Enter email address...",
+             "inputId": "inputEmail"
+            }
+          ],
            "button" : "submit",
            "buttonText": "Subscribe",
            "classList": "text-center"
