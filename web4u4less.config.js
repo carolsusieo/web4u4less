@@ -1,3 +1,4 @@
+module.exports = {
 apps : [
      {
        name          : 'web4u4less',
@@ -9,3 +10,4 @@ apps : [
        }
      }
    ]
+}
