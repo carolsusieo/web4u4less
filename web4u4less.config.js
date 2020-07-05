@@ -6,7 +6,8 @@ apps : [
        interpreter   : 'none',
        args          : 'serve build -s',
        env_production : {
-         NODE_ENV: 'production'
+         NODE_ENV: 'production',
+         NODE_PORT: '8002'
        }
      }
    ]
